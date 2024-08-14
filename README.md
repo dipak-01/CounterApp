@@ -1,9 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Counter App
 
-Currently, two official plugins are available:
+The Counter App is a simple yet versatile application that allows users to increment, decrement, undo, and redo their actions. Additionally, the app features a progress bar that visually represents the current counter value.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# CounterApp" 
+
+
+## Features
+
+- Add (+): Increases the counter value by 1.
+- Subtract (-): Decreases the counter value by 1.
+- Undo: Reverts the last action performed (either add or subtract).
+- Redo: Re-applies the last undone action.
+- Progress Bar: Dynamically updates to reflect the current counter value.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  https://github.com/dipak-01/CounterApp.git
+```
+
+Go to the project directory
+
+```bash
+  cd counterapp
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+ 
+## Tech Stack
+
+**Frontend**: ReactJS, Tailwind CSS, JavaScript  
+**State Management**:   React useState 
+ 
+
